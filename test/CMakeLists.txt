@@ -64,3 +64,10 @@ target_link_libraries(log_test zcoco)
 
 add_executable(Address_test Address_test.cpp)
 target_link_libraries(Address_test zcoco)
+
+
+
+
+
+add_executable(Coroutine_test Coroutine_test.cpp)
+target_link_libraries(Coroutine_test zcoco)
