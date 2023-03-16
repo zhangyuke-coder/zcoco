@@ -59,3 +59,8 @@ target_link_libraries(PrintABC zcoco)
 
 add_executable(log_test log_test.cpp)
 target_link_libraries(log_test zcoco)
+
+
+
+add_executable(Address_test Address_test.cpp)
+target_link_libraries(Address_test zcoco)
