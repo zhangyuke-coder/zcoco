@@ -87,3 +87,6 @@ target_link_libraries(TcpServer_test zcoco)
 
 add_executable(TcpClient_test TcpClient_test.cpp)
 target_link_libraries(TcpClient_test zcoco)
+
+add_executable(Timer_test Timer_test.cpp)
+target_link_libraries(Timer_test zcoco)
