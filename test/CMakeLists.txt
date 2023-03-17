@@ -71,3 +71,11 @@ target_link_libraries(Address_test zcoco)
 
 add_executable(Coroutine_test Coroutine_test.cpp)
 target_link_libraries(Coroutine_test zcoco)
+
+
+add_executable(EventLoopThreadPool_test EventLoopThreadPool_test.cpp)
+target_link_libraries(EventLoopThreadPool_test zcoco)
+
+
+add_executable(Hook_test Hook_test.cpp)
+target_link_libraries(Hook_test zcoco)
