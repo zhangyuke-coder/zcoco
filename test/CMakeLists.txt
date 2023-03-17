@@ -79,3 +79,11 @@ target_link_libraries(EventLoopThreadPool_test zcoco)
 
 add_executable(Hook_test Hook_test.cpp)
 target_link_libraries(Hook_test zcoco)
+
+
+add_executable(TcpServer_test TcpServer_test.cpp)
+target_link_libraries(TcpServer_test zcoco)
+
+
+add_executable(TcpClient_test TcpClient_test.cpp)
+target_link_libraries(TcpClient_test zcoco)
